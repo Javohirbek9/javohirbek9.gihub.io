@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 1100px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.head {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 280px;
+}
+.bg-dark {
+    display: flex;
+    width: 1070px;
+    height: 250px;
+    background-color: rgba(0, 0, 0,0.3);
+}
+span:nth-of-type(1) {
+    margin-left: 50px;
+}
+span {
+    color: white;
+    margin: 70px 30px 0px 0px;
+    text-align: center;
+}
+h1 , h2, h3 {
+    margin: 0px;
+}
+h1  {
+    font-size: 50px;
+}
+h2 {
+    margin-top: 10px;
+}
+h3 {
+    font-size: 28px;
+    margin-top: 0px;
+}
+.head-weather {
+    margin-top:90px;
+}
+.head-date {
+    line-height: 5px;
+    font-size: 20px;
+    margin: 100px 0px 0px 160px;
+    color: rgb(241, 241, 245);
+}
+.head-watch {
+    margin-top: 90px;
+    display: flex;
+    margin-left: 50px;
+    color: white;
+}
+.head-watch p {
+    font-weight:900;
+}
+.head-watch h1 {
+    font-size: 70px;
+    font-weight: 100;
+}
+.head-watch p {
+    margin-top: 50px;
+}
+.body {
+    display:flex;
+}
+.body p:nth-of-type(1){
+    font-weight: 800;
+    margin-left: 160px;
+    font-size: 20px;
+    line-height: 10px;
+}
+.body p {
+    margin: 0px;
+
+    margin-left: 50px;
+    color: rgb(189, 189, 189);
+    font-weight: 550;
+}
+.body .active {
+    color: black;
+    margin-bottom: 30px;
+}
+.body p:hover {
+    color: black;
+}
+.fa-desktop {
+    color: rgb(167, 200, 231);
+    margin-left: 200px;
+    /* margin-bottom: 70px; */
+}
+.videos-box {
+    position: ;
+    display: flex;
+ align-items: center;
+}
+.video-box { 
+    width: 1200px;
+    height: 150px; 
+    background-size: 250px 150px;
+    background-repeat: no-repeat;
+}
+.video-box:nth-of-type(1) {
+    background-image: url("../img/program.jpg");
+    margin-left: 50px;
+    /* box-shadow: 0px 5px 0px 10px  black; */
+}
+.video-box:nth-of-type(2) {
+    background-image: url("../img/video-family-guy.jpg");
+}
+.video-box:nth-of-type(3) {
+transform: scale(1.1);
+    background-image: url("../img/video-simpsons.jpg");
+}
+.video-box:nth-of-type(4) {
+    background-image: url("../img/video-futurama.jpg");
+}
+.video-box:nth-of-type(5) {
+    background-image: url("../img/video-american-dad.jpg");
+}
+.video-box p {
+    margin-left: 20px;
+    line-height: 10px;
+}
+.video-box p:nth-of-type(1) {
+    color: rgb(190, 189, 183);
+    margin-top: 170px;
+}
+.active-video p:nth-of-type(1) {
+    margin-top: 160px;
+    font-weight: 300;
+    /* padding-bottom: 5px; */
+}
+.line {
+    display: block;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    height: 2px;
+    background-color: rgb(121, 116, 116);
+}
+.in-line {
+    width: 120px;
+    height: 5px;
+    border-radius: 20px;
+    transform: translateY(-5px);
+    margin: 0px 0px 20px 650px;
+    padding: 5px;
+    background-color: rgb(176, 212, 221);
+}
+.searcle {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0,0.8);
+    margin: 50px 0px 0px 70px;
+    display: none;
+}
+.video-box:hover .searcle {
+     display: block;
+}
+.video-box:hover p:nth-of-type(1) {
+    margin-top: 70px;
+}
+.fa-play {
+    color: white;
+    margin: 17px 0px 0px 5px;
+}
+.footer {
+    margin: 50px 0px 0px 100px;
+    display: flex;
+}
+.audios {
+    display: flex;
+    text-align: center;
+}
+.audio img {
+    width: 150px;
+    height: 120px;
+}
+.audio img:nth-of-type(1) {
+    transform: scale(1.2);
+}
+.music-img {
+    margin: 30px 0px 0px 50px ;
+    width: 70px;
+    height: 70px;
+}
+.fa-music {
+    margin-top: 50px;
+    margin-left: 120px;
+    color: rgb(167, 200, 231);
+}
+.audio:nth-of-type(1) {
+    margin-left: 300px;
+    transform: scale(1.05);
+    z-index: 1;
+}
+.audio:hover .searcle {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin: 50px 0px 0px 40px;
+}
